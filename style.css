@@ -93,16 +93,12 @@ header{
   margin: auto;
 }
 
-.space{
-  margin-bottom: 100%;
-}
-
 .join {
   background-color: #8ba1cb;
   color: white;
   padding: 10px 20px;
   text-decoration: none;
-  border-radius: 10%;
+  font-weight: 400 !important;
 }
 
 .join:hover {
@@ -110,11 +106,11 @@ header{
 }
 
 .basic {
-  background-color: #8ba1cb;
-  color: white;
+  background-color: transparent;
+  color: white !important; 
+  border: 3px solid #8ba1cb;
   padding: 10px 20px;
   text-decoration: none;
-  border-radius: 10%;
 }
 
 .basic:hover {
@@ -122,11 +118,11 @@ header{
 }
 
 .extra {
-  background-color: #8ba1cb;
-  color: white;
+  background-color: transparent;
+  border: 3px solid #8ba1cb;
+  color: white !important;
   padding: 10px 20px;
   text-decoration: none;
-  border-radius: 10%;
 }
 
 .extra:hover {
