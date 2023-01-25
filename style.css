@@ -72,12 +72,18 @@ header{
 }
 
 .nav-right {
+  padding-top: 15px;
   float: right;
+}
+
+.logoname {
+  font-weight: 400;
+  font-size: 30px !important;
 }
 
 /* hero */
 .hero-text {
-  padding-top: 40%;
+  padding-top: 30%;
   text-align: center;
   top: 50%;
   left: 50%;
